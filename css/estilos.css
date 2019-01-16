@@ -1,0 +1,36 @@
+body{
+
+	
+}
+
+header{
+    width: 100%;
+	background-color: #ba08d6;
+	height: 100px;
+
+}
+h1{}
+nav{
+	background-color: #635e5e;
+}
+a{}
+.buscar{
+
+	}
+section{
+	height: 100%;
+	width: 100%;
+}
+.imagen{
+
+	  background-color: #ff0000;
+
+
+}
+footer{
+
+	background-color:  #635e5e;
+	height: 50px;
+    text-align: center;
+}
+p{}
