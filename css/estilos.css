@@ -83,9 +83,14 @@ section{
 
 }
 
-.imagen{
+.imagen1{
+ 
+background-image: url(pick/imagenes/gato.jpg);	
 
-	  background-color: #ff0000;
+
+}
+
+.imagen{
 }
 
 footer{
