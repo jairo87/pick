@@ -78,19 +78,52 @@ nav a{
 }
 
 section{
-	height: 100%;
-	width: 100%;
+	height: 75%;
+	
 
 }
 
-.imagen1{
- 
-background-image: url(pick/imagenes/gato.jpg);	
+#imagen1{
+
+    width: 300px;
+    height: 300px; 
+    background-image: url(../imagenes/gato.jpg);
+    background-repeat: no-repeat;
+    margin: 30px 30px 30px 10px;
+    padding: 30px 30px 30px 30px;
+    float: left;
 
 
+}
+
+#imagen2{
+
+	width: 300px;
+    height: 300px; 
+    background-image: url(../imagenes/luces.jpg);
+    background-repeat: no-repeat;
+    margin: 30px 30px 30px 10px;
+    padding: 30px 30px 30px 30px;
+    float: left;
+    
+}
+
+#imagen3{
+
+	width: 300px;
+    height: 300px; 
+    background-image: url(../imagenes/harley.jpg);
+    background-repeat: no-repeat;
+    margin: 30px 30px 30px 10px;
+    padding: 30px 30px 30px 30px;
+    float: left;
 }
 
 .imagen{
+
+
+
+
 }
 
 footer{
@@ -98,6 +131,7 @@ footer{
 	background-color:  #635e5e;
 	height: 50px;
     text-align: center;
+    margin: 420px 0 0 0;
 }
 
 p{}
