@@ -1,137 +1,105 @@
-*{
-
-vertical-align: baseline;
-font-weight: inherit;
-font-family: inherit;
-font-style: inherit;
-font-size: inherit;
-border: 0;
-outline: 0;
-padding: 0;
-margin: 0;
-
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
 }
-
-a{
-	text-decoration: none;
+a {
+    text-decoration: none;
 }
-
-body{
-
-	font-family: Arial;
-
-
-	
+body {
+    font-family: Arial;
 }
-
-header{
+header {
     width: 100%;
     padding: 10px 0;
     background-color: #ba08d6;
 }
-
 .titulo {
-	width: 30%;
-	padding:  0 20px;
-} 
-
+    width: 30%;
+    padding: 0 20px;
+}
 header h1 {
-	font-size: 6em;
-	color: #f9f9f9;
-	font-family: "Arial Black", sans-serif;
+    font-size: 6em;
+    color: #f9f9f9;
+    font-family: "Arial Black", sans-serif;
 }
-
-nav{
-	width: 100%;
-	background-color: #635e5e;
-	overflow: hidden;
+nav {
+    width: 100%;
+    background-color: #635e5e;
+    overflow: hidden;
 }
-
-
-
-nav a{
+nav a {
     margin: 5px;
-	color: #fff;
-	float: left;
+    color: #fff;
+    float: left;
 }
-.menu{
-
-	width: 30%;
-	padding: 10px 20px ;
+.menu {
+    width: 30%;
+    padding: 10px 20px;
 }
-
-
-.buscar p{
-	color: #71636b;
-	padding: 6px 0 0 40px;
-
-} 
-
-.buscar{
-	height: 30px;
-	margin: 0 60px 20px 0 ;
+.buscar p {
+    color: #71636b;
+    padding: 6px 0 0 40px;
+}
+.buscar {
+    height: 30px;
+    margin: 0 60px 20px 0;
     width: 35%;
-	color: #fff;
-	float: right;
-	background-color: #fff;
-	border-radius: 5px
+    color: #fff;
+    float: right;
+    background-color: #fff;
+    border-radius: 5px
 }
-
-section{
-	height: 75%;
-	
-
+.contenedor {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
-
-#imagen1{
-
-    width: 300px;
-    height: 300px; 
+article {
+    width: 90%;
+    margin: 5px 0 5px 0;
+}
+.informacion {
+    width: 30%;
+    height: 427px;
+    background-size: cover;
     background-image: url(../imagenes/gato.jpg);
     background-repeat: no-repeat;
-    margin: 30px 30px 30px 10px;
-    padding: 30px 30px 30px 30px;
     float: left;
-
-
+    margin: 20px;
 }
-
-#imagen2{
-
-	width: 300px;
-    height: 300px; 
-    background-image: url(../imagenes/luces.jpg);
-    background-repeat: no-repeat;
-    margin: 30px 30px 30px 10px;
-    padding: 30px 30px 30px 30px;
-    float: left;
-    
-}
-
-#imagen3{
-
-	width: 300px;
-    height: 300px; 
-    background-image: url(../imagenes/harley.jpg);
-    background-repeat: no-repeat;
-    margin: 30px 30px 30px 10px;
-    padding: 30px 30px 30px 30px;
-    float: left;
-}
-
-.imagen{
-
-
-
-
-}
-
-footer{
-    width: 100%;
-	background-color:  #635e5e;
-	height: 50px;
+.informacion h1, .informacion p {
+    color: #fff;
+    font-size: 25px;
     text-align: center;
-    margin: 420px 0 0 0;
+    padding: 15px;
 }
-
-p{}
+.informacion p {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 60%;
+}
+footer {
+    width: 100%;
+    background-color: #635e5e;
+    height: 50px;
+    text-align: center;
+}
+.informacionfooter {
+    padding: 5px;
+}
+footer p {
+    width: 25%;
+    color: #fff;
+    font-size: 10px;
+}
+.empresa p {
+    color: #fff;
+    font-size: 12px;
+}
