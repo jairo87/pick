@@ -15,15 +15,20 @@ a {
 body {
     font-family: Arial;
 }
+
 header {
+	
+	background-image: url(..//imagenes/fondo-nav.png);
     width: 100%;
     padding: 10px 0;
-    background-color: #ba08d6;
 }
+
+
 .titulo {
     width: 30%;
     padding: 0 20px;
 }
+
 header h1 {
     font-size: 6em;
     color: #f9f9f9;
@@ -34,15 +39,18 @@ nav {
     background-color: #635e5e;
     overflow: hidden;
 }
+
 nav a {
     margin: 5px;
     color: #fff;
     float: left;
 }
+
 .menu {
     width: 30%;
     padding: 10px 20px;
 }
+
 .buscar p {
     color: #71636b;
     padding: 6px 0 0 40px;
@@ -56,6 +64,7 @@ nav a {
     background-color: #fff;
     border-radius: 5px
 }
+
 .contenedor {
     justify-content: center;
     align-items: center;
@@ -65,41 +74,80 @@ article {
     width: 90%;
     margin: 5px 0 5px 0;
 }
+
 .informacion {
-    width: 30%;
-    height: 427px;
+    width: 25%;
+    height: 250px;
     background-size: cover;
-    background-image: url(../imagenes/gato.jpg);
+    
     background-repeat: no-repeat;
     float: left;
     margin: 20px;
 }
+
+#imagen1{background-image: url(../imagenes/imagen1.png);}
+#imagen2{background-image: url(../imagenes/imagen2.png);}
+#imagen3{background-image: url(../imagenes/imagen3.png);}
+#imagen4{background-image: url(../imagenes/imagen4.png);}
+#imagen5{background-image: url(../imagenes/imagen5.png);}
+#imagen6{background-image: url(../imagenes/imagen6.png);}
+#imagen-full-screen{background-image: url(../imagenes/imagen-full-screen.png);}
+.full-screen{
+	width: 100%;
+	height: 500px;
+}
+
 .informacion h1, .informacion p {
     color: #fff;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
     padding: 15px;
+    margin-top: 50%;
 }
+
+
+
 .informacion p {
     font-size: 14px;
-    text-align: justify;
-    margin-top: 60%;
+    text-align: ;
+    margin-top: 0;
+    background: rgba(0,0,0,.7);
 }
+
 footer {
     width: 100%;
     background-color: #635e5e;
     height: 50px;
     text-align: center;
 }
+
 .informacionfooter {
     padding: 5px;
 }
+
 footer p {
+	background-image: url(..//imagenes/background-313415_640.png);
     width: 25%;
     color: #fff;
     font-size: 10px;
 }
+
 .empresa p {
     color: #fff;
     font-size: 12px;
+}
+
+.info1{
+	width: 50%;
+	padding: 50px 25px 50px 50px;
+}
+
+.info1 h1{
+	font-size: 40px;
+}
+
+.info1 h3{
+	font-size: 30px;
+	padding: 5px 0 5px ;
+
 }
