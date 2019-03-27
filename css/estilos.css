@@ -71,15 +71,14 @@ nav a {
     display: flex;
 }
 article {
-    width: 90%;
+    width: 100%;
     margin: 5px 0 5px 0;
 }
 
 .informacion {
-    width: 25%;
+    width: 30%;
     height: 250px;
     background-size: cover;
-    
     background-repeat: no-repeat;
     float: left;
     margin: 20px;
@@ -95,6 +94,8 @@ article {
 .full-screen{
 	width: 100%;
 	height: 500px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .informacion h1, .informacion p {
@@ -102,19 +103,19 @@ article {
     font-size: 25px;
     text-align: left;
     padding: 15px;
-    margin-top: 50%;
+    margin-top: 36%;
 }
 
 
 
 .informacion p {
     font-size: 14px;
-    text-align: ;
     margin-top: 0;
     background: rgba(0,0,0,.7);
 }
 
 footer {
+ 
     width: 100%;
     background-color: #635e5e;
     height: 50px;
@@ -126,7 +127,7 @@ footer {
 }
 
 footer p {
-	background-image: url(..//imagenes/background-313415_640.png);
+                  	
     width: 25%;
     color: #fff;
     font-size: 10px;
@@ -139,15 +140,16 @@ footer p {
 
 .informaciones{
 
-border: 1px red solid; 
-position: relative;
+
+
 display: inline-block;
-width: 48%;
+width: 45%;
 vertical-align: top;
+
 }
 
 .info1{
-	width: 30%;
+	
 	padding: 50px 25px 50px 50px;
 	
 }
@@ -168,26 +170,7 @@ vertical-align: top;
 	text-align: justify;
 }
 
-.info2 h1{
-  font-size: 40px;
-}
 
-.info2 h3{
-  font-size: 30px;
-  padding: 5px 0 5px ;
-
-}
-
-.info2{
-  width: 30%;
-  padding: 50px 25px 50px 50px;
-}
-
-.info2 p{
-  font-size: 17px;
-  padding: 0px 0 5px ;
-  text-align: justify;
-  }
 
 .button {
   display: inline-block;
@@ -224,3 +207,28 @@ position: absolute;
   opacity: 1;
   right: 0;
 }
+
+.textonosotros{
+  border: 0px red solid; 
+
+float: right;
+width: 50%;
+vertical-align: top;
+
+}
+
+.textonosotros p{
+
+  font-size: 17px;
+  padding: 0px 0 5px ;
+  text-align: justify;
+}
+
+.hjc{
+
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+
